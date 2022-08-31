@@ -1,0 +1,14 @@
+.hinteractive-section{
+    height: 89.2vh;
+}
+  
+.hinteractive-instructions{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    color: rgb(255, 255, 255);
+    background-color: rgba(14, 10, 10, 0.5);
+    padding: 1em;
+    border-radius: 0.5em;
+}

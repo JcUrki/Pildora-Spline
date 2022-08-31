@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003D4F;
+    height: 4.5em;
+}
+  
+.navbar-first-block{
+    display: flex;
+    gap: 2em;
+}
+  .logo{
+    width: 15rem;
+    height: 2.5rem;
+    background: none;
+  }
+  

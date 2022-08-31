@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react' 
-import NavBar from './components/NavBar.jsx' 
+import NavBar from './components/navbar/NavBar' 
 import Router from './router/Router';
-import Footer from './components/Footer';
+import Footer from './components/footer/Footer';
 import './App.css'
 import { BrowserRouter } from "react-router-dom";
 
