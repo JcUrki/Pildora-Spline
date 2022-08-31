@@ -1,0 +1,29 @@
+.hintro-container{
+    height: 89.2vh;
+}
+
+.hintro-section1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("https://wwwhatsnew.com/wp-content/uploads/2021/07/Spline.jpeg");
+    width: 100vw;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 15%;
+    z-index: -1;
+}
+  
+.hintro-title{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.hintro-subtitle{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './MoreInfoStyle.css'
 
 export default function MoreInfo(){
     return(

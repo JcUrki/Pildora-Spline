@@ -1,13 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import InfoGraphics from "../pages/InfoGraphics";
-import HeroImage from "../pages/HeroImage";
-import MoreInfo from "../pages/MoreInfo";  
+import InfoGraphics from "../pages/info-grafics/InfoGraphics";
+import Interactive from "../pages/interactive/Interactive";
+import MoreInfo from "../pages/more-info/MoreInfo";  
+import Intro from "../pages/intro/Intro";
 
 export default function Router() {
     return(
         <Routes>
-            <Route exact path='/' element={<InfoGraphics/>}/>
-            <Route exact path='/HeroImage' element={<HeroImage />}/>
+            <Route path="/" element={<Intro />} />
+            <Route exact path='/InfoGraphics' element={<InfoGraphics/>}/>
+            <Route exact path='/Interactive' element={<Interactive />}/>
             <Route exact path='/MoreInfo' element={<MoreInfo />}/>
         </Routes>
     )
