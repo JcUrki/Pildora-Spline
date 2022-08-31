@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat';
 }
 
 .link{
@@ -15,12 +16,16 @@ header{
   justify-content: space-around;
   align-items: center;
   background-color: #003D4F;
-  height: 3em;
+  height: 5em;
 }
 
 .navbar-first-block{
   display: flex;
   gap: 2em;
+}
+
+.logo{
+  width: 220px;
 }
 
 /*--- Footer ---*/
@@ -29,13 +34,13 @@ footer{
   justify-content: space-around;
   align-items: center;
   background-color: #003D4F;
-  height: 2em;
+  height: 3em;
   color: white;
 }
 
 /*--- InfoGrafics ---*/
 .igraphic-container{
-  height: 89.2vh;
+  height: 86.3vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,15 +48,20 @@ footer{
 }
 
 .igraphic-maplegend{
-  border: solid #003D4F 0.1em;
-  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  border: solid #003D4F 10px;
+  width: 30rem;
+  height: 40rem;
   padding: 1em 2em;
 }
 
-img{
-  background-color: black;
-  height: 30em;
-  width: 30em;
+.info{
+  width: 3rem;
 }
 
 .legend1{
@@ -108,4 +118,9 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Graphic from '../assets/images/graphic.png'
 
 export default function InfoGraphics(){
     return(
@@ -14,7 +15,7 @@ export default function InfoGraphics(){
                 </section>
             </section>
 
-            <img href=''/>  
+            <img src={Graphic} alt='' className='info'/>  
         </section>
     )
 }

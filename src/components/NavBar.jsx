@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/images/Thoughtworks_logo.png'
 
 export default function NavBar(){
     return(
@@ -11,7 +12,7 @@ export default function NavBar(){
             
             <Link to='/' className='link'>
                 <section>
-                    <p>/ThoughtWork</p>  
+                    <img src={Logo} alt='' className='logo'/>
                 </section>
             </Link> 
         </header>
