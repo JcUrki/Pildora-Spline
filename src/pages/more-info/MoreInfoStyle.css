@@ -4,9 +4,53 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .minfo-spline{
     width: 100%;
     height: 30rem;
+}
+
+.minfo-urls{
+    display: flex;
+    gap: 2rem;
+}
+
+.minfo-urls>h2{
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.minfo-container>h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+}
+
+.minfo-doc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+border: 5px solid #003D4F;
+width: 30rem;
+height: 10rem;
+margin-top: 2rem;
+}
+
+.minfo-doc>h2{
+padding: 0.5rem;
 }

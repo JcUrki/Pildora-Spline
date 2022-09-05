@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './InfoGraficsStyle.css'
 import Spline from '@splinetool/react-spline';
-import graphicImg from '../../assets/images/graphic.png';
 
 export default function InfoGraphics(){
     const [loading, setLoading] = useState(false);
@@ -51,8 +50,8 @@ export default function InfoGraphics(){
                                 </li>
                             </ul>
                         </section>
-
-                        <img src={graphicImg} alt='graphics'/>  
+                        <div>
+                        <Spline scene="https://prod.spline.design/i5wsBnAXnjUKNV8m/scene.splinecode" /></div>
                     </section>
                 )
             }
