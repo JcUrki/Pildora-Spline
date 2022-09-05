@@ -1,4 +1,4 @@
-body{
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,9 +10,7 @@ body{
   color: white
 }
 
-
 @font-face {
   font-family: 'Montserrat';
   src: url('./assets/fonts/Montserrat-Regular.ttf');
-
 }
