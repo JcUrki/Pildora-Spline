@@ -14,10 +14,10 @@ export default function InfoGraphics(){
     }, [])
 
     return(
-        <section className='igraphic-section'>
+        <section className='igraphic-section' style={{height: "100vh"}}>
             {loading ? 
                 (
-                    <Spline scene="https://prod.spline.design/oGxQ2hfwKjbU0l86/scene.splinecode" />
+                    <Spline scene="https://prod.spline.design/2c1Bfz2DT7a0eHwd/scene.splinecode" />
                 )
                 :
                 (

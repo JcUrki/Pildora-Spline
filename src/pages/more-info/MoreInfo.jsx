@@ -14,13 +14,37 @@ export default function MoreInfo(){
     }, [])
 
     return(
-        <section>
+        <section className="minfo">
             {loading ? 
                 (
-                    <Spline scene="https://prod.spline.design/oGxQ2hfwKjbU0l86/scene.splinecode" />
+                    <Spline scene="https://prod.spline.design/2c1Bfz2DT7a0eHwd/scene.splinecode" />
                 )
                 :
                 (
+                    <section className="minfo-general">
+                        <section className="minfo-container1">
+                            <div className="minfo-vd">
+                            <h2>👍Ventajas</h2>
+                            <ul>
+                                <li>▶ Interfaz intuitiva</li>
+                                <li>▶ Puedes trabajar desde cualquier ordenador</li>
+                                <li>▶ Versión Online y Desktop</li>
+                                <li>▶ Ámplia comunidad</li>
+                                <li>▶ Muchisimas funcionalidades gratis</li>
+                                <li>▶ Puedes trabajar en equipo</li>
+                                <li>▶ Apto para todos los usuarios</li>
+                            </ul>
+                            </div>
+                            <div className="minfo-vd">
+                            <h2>👎Desventajas</h2>
+                            <ul>
+                                <li>▶ Compatibilidad con navegadores antiguos</li>
+                                <li>▶ Archivos muy complejos afectan a la performance</li>
+                                <li>▶ Limitaciones en funciones de 3D</li>
+                                <li>▶ No hay mucho más, es chulísimo ¯\_(ツ)_/¯</li>
+                            </ul>
+                            </div>
+                            </section>
                     <section className='minfo-container'>
                         <h1>🧠Más información</h1>
                     <section className='minfo-urls'>
@@ -41,12 +65,10 @@ export default function MoreInfo(){
                         </ul></div>
                     </section>  
                         <h3>✨ ¡Gracias por vuestra atención! ✨</h3>
-                    <section className='minfo-spline'>
-                    <Spline scene="https://prod.spline.design/2c1Bfz2DT7a0eHwd/scene.splinecode" />
-                    </section>
+                </section>
                 </section>
                  )
-            } 
+            }   
         </section>
     )
 }
