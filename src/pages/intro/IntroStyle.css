@@ -1,33 +1,34 @@
-.intro-container{
-    height: 89.2vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
+.intro-container {
+  height: 89.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
 }
 
-.intro-spline{
-    width: 55em;
-    height: 55em;
+.intro-spline {
+  width: 50em;
+  height: 50em;
+  z-index: -1;
 }
 
-.intro-section1{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+.intro-section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
-.intro-title{
-    font-size: 3rem;
-    width: 45rem;
-    margin-right: 5rem;
-    color: #003D4F;
+.intro-title {
+  font-size: 3rem;
+  width: 45rem;
+  margin-right: 5rem;
+  color: #003d4f;
 }
 
-.intro-title>span{
-    color: #f16079;
+.intro-title > span {
+  color: #f16079;
 }
 
-.intro-para{
-    width: 50rem;
+.intro-para {
+  width: 50rem;
 }

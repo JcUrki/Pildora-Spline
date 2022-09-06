@@ -7,42 +7,55 @@
 }
   
 .igraphic-maplegend{
-    border: solid #003D4F 0.1em;
-    border-radius: 0.5em;
+    border: solid #003D4F 8px;
+    border-radius: 1em;
     padding: 2em 3em;
 }
-  
-img{
-    height: 30em;
-    width: 30em;
+
+.igraphic-maplegend>h2{
+font-size: 3rem;
+margin-bottom: 0.5rem;
+}
+
+.legend-block>p{
+font-size: 2rem;
 }
   
+.spline{
+    width: 50rem;
+    height: 50rem;
+}
+
 .legend1{
-    height: 0.6em;
-    width: 0.6em;
-    background-color: blueviolet;
+    height: 1.8em;
+    width: 1.8em;
+    background-color: #003d4f;
     border-radius: 50%;
+    margin-right: 0.5rem;
 }
-  
+
 .legend2{
-    height: 0.6em;
-    width: 0.6em;
-    background-color:brown;
+    height: 1.8em;
+    width: 1.8em;
+    background-color: #f16079;
     border-radius: 50%;
+    margin-right: 0.5rem;
 }
   
 .legend3{
-    height: 0.6em;
-    width: 0.6em;
-    background-color:rgb(54, 42, 165);
+    height: 1.8em;
+    width: 1.8em;
+    background-color: #ffba32;
     border-radius: 50%;
+    margin-right: 0.5rem;
 }
   
 .legend4{
-    height: 0.6em;
-    width: 0.6em;
-    background-color:rgb(42, 165, 58);
+    height: 1.8em;
+    width: 1.8em;
+    background-color: #5ab8c5;
     border-radius: 50%;
+    margin-right: 0.5rem;
 }
   
 .legend-block{
@@ -53,4 +66,5 @@ img{
   
 .igraphic-maplegend-item{
     list-style: none;  
+    padding: 0.5rem;
 }

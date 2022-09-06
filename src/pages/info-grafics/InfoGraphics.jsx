@@ -14,7 +14,7 @@ export default function InfoGraphics(){
     }, [])
 
     return(
-        <section className='igraphic-container'>
+        <section className='igraphic-section'>
             {loading ? 
                 (
                     <Spline scene="https://prod.spline.design/oGxQ2hfwKjbU0l86/scene.splinecode" />
@@ -23,38 +23,41 @@ export default function InfoGraphics(){
                 (
                     <section className='igraphic-container'>
                         <section className='igraphic-maplegend'>
+                            <h2>🧐¿Qué aporta Spline? </h2>
+                            <br/>
                             <ul>
                                 <li className='igraphic-maplegend-item'>
                                     <section className='legend-block'>
                                         <section className='legend1'/>
-                                        <p>Lorem</p>
+                                        <p>Creatividad</p>
                                     </section>
                                 </li>  
                                 <li className='igraphic-maplegend-item'>
                                     <section className='legend-block'>
                                         <section className='legend2'/>
-                                        <p>Ipsum</p>
+                                        <p>Dinamismo</p>
                                     </section>
                                 </li>
                                 <li className='igraphic-maplegend-item'>
                                     <section className='legend-block'>
                                         <section className='legend3'/>
-                                        <p>Dolor</p>
+                                        <p>Interactividad</p>
                                     </section>
                                 </li>
                                 <li className='igraphic-maplegend-item'>
                                     <section className='legend-block'>
                                         <section className='legend4'/>
-                                        <p>Sit</p>
+                                        <p>Mejora la Experiencia de Usuario</p>
                                     </section>
                                 </li>
                             </ul>
                         </section>
-                        <div>
-                        <Spline scene="https://prod.spline.design/i5wsBnAXnjUKNV8m/scene.splinecode" /></div>
+                        <div className="spline">
+                        <Spline scene="https://prod.spline.design/GbqGhFXHSpkv1hUo/scene.splinecode" />
+                        </div>
                     </section>
-                )
-            }
+                 )
+            } 
         </section>
     )
 }
