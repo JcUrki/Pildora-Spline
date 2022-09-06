@@ -17,7 +17,7 @@ export default function InfoGraphics(){
         <section className='igraphic-container'>
             {loading ? 
                 (
-                    <Spline scene="https://prod.spline.design/oGxQ2hfwKjbU0l86/scene.splinecode" />
+                    <Spline scene="https://prod.spline.design/2c1Bfz2DT7a0eHwd/scene.splinecode" />
                 )
                 :
                 (
@@ -51,7 +51,8 @@ export default function InfoGraphics(){
                             </ul>
                         </section>
                         <div>
-                        <Spline scene="https://prod.spline.design/i5wsBnAXnjUKNV8m/scene.splinecode" /></div>
+                            <Spline scene="" />
+                        </div>
                     </section>
                 )
             }

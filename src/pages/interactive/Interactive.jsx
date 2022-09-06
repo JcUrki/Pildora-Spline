@@ -17,7 +17,7 @@ export default function Interactive(){
         <section className='hinteractive-section'>
             {loading ? 
                 (
-                    <Spline scene="https://prod.spline.design/oGxQ2hfwKjbU0l86/scene.splinecode" />
+                    <Spline scene="https://prod.spline.design/2c1Bfz2DT7a0eHwd/scene.splinecode" />
                 )
                 :
                 (
